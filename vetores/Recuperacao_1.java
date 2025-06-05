@@ -24,7 +24,7 @@ public class Recuperacao_1 {
             System.out.println("Informe um numero inteiro:");
             numero[n] = scanner.nextInt(); //leitura e armazenamento
         }
-        scanner.close();
+        scanner.close(); //fechamento
         
         System.out.println("Os numeros sao:  " );
         for (int num : numero){
